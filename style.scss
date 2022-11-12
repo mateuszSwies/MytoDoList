@@ -1,0 +1,51 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// body {
+// 	background-color: lightgray;
+// }
+
+#mainContainer {
+	min-height: 100vh;
+	max-width: 1000px;
+	background-color: lightgray;
+}
+
+.mainHeader {
+	background-color: $primary;
+	text-align: center;
+	width: 100%;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.tittle {
+	margin: 7px 0;
+	color: white;
+	font-weight: 400;
+}
+
+div .form-control {
+	line-height: 6vh;
+	max-height: 50px;
+}
+
+.searchBar form {
+	justify-content: space-between;
+	width: 100%;
+}
+
+#searchBtn {
+	color: white;
+}
+
+@media (min-width: 600px) {
+	#tasksContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 0;
+		& li {
+			flex-basis: 45%;
+		}
+	}
+}
