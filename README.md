@@ -1,5 +1,5 @@
 # MyToDoList
-Simple app to adding, removing and marking as a done some tasks.
+Simple app to adding, removing and marking as a done some tasks. You can watch it here: https://mateuszswies.github.io/MytoDoList/
 
 ## Technologies
 
